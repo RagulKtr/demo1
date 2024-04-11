@@ -28,7 +28,7 @@
 /* navbar css completed================================================ */
 /*section 1 css started  */
 .webapp_section_1_layout {
-  width: 100%;
+  width: 1192px;
   height: 600px;
   margin-top: 12px;
   margin-left: 124px;
@@ -167,7 +167,7 @@
 
 /*section 2 started*/
  .webapp_section_2_layout {
-  width: 100%;
+  width: 1192px;
   height: 700px;
   margin-left: 124px;
   margin-top: 108px;
@@ -258,6 +258,7 @@
   width: 132px;
   /* margin-top: 18px; Initially position at center */
   margin-left: 24px;
+  margin-top: -26px;
   transform: translateY(-50%); /* Adjust position to center vertically */
   border: 2px solid rgba(65, 64, 66, 1);
   transition: top 0.3s ease; /* Add transition for smooth movement */
@@ -267,7 +268,7 @@
 .webapp_section_2_box:hover .webapp_section_2_box_text2,
 .webapp_section_2_box:hover .webapp_section_2_box_text3,
 .webapp_section_2_box:hover .webapp_section_2_box_text4 {
-  margin-top: 50px; /* Move to top on hover */
+  margin-top: 40px; /* Move to top on hover */
 }
 
 .webapp_section_2_box:hover .webapp_section_2_box_textline {
@@ -276,17 +277,17 @@
 
 .webapp_paragraph {
   /* position: absolute; */
-
   display: none;
   bottom: 100px; /* Adjust as needed */
-  margin-left: 24px; /* Adjust as needed */
-  width: 212px; /* Adjust as needed */
-  height: 135px;
+  margin-left: 20px; /* Adjust as needed */
+  width: 242px; /* Adjust as needed */
+  height: 150px;
   color: #000; /* Adjust text color */
+  padding: 5px;
 }
 
 .webapp_section_2_box:hover .webapp_paragraph {
-  display: block;
+  display: flex;
 }
 
 /* CSS for arrows */
@@ -329,7 +330,7 @@
 
 /*section 3 started*/
 .webapp_section_3_layout{
-  width: 100%;
+  width: 1192px;
   height: 543px;
   margin-top: 108px;
   margin-left: 124px;
@@ -404,12 +405,12 @@ opacity: 0px;
   margin-top: 107px;
   gap: 0px;
   opacity: 0px;
-  background-image: url('./webapp\ image/Vector 9.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-image: url('./Vector 9.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   background-size: cover;
   position: relative;
 }
 .webapp_section_4_layout{
-  width: 100%;
+  width: 1192px;
   height: 571.14px;
   margin-left: 124px;
   gap: 0px;
@@ -628,7 +629,7 @@ opacity: 0px;
 
 /*section 5 start*/
 .webapp_section_5_layout{
-  width: 100%;
+  width: 1192px;
   height: 735px;
   margin-top: 108px;
   margin-left: 124px;
@@ -760,7 +761,7 @@ opacity: 0px;
 /*section 6 start*/
 
 .webapp_section_6_layout{
-  width: 100%;
+  width: 1192px;
   max-width: 100%;
   height: 490px;
   margin-top: 108px;
@@ -843,7 +844,7 @@ opacity: 0px;
   height: 350px;
   gap: 0px;
   background-color: rgba(36, 128, 83, 0.5); /* Adjust the opacity of the white background to make the image slightly visible */
-  background-image: url('./webapp\ image/1000_F_303094737_NRtiCqDWlk6iNRdJGxE8DTyqwaBKfoxs 2.png');
+  background-image: url('./1000_F_303094737_NRtiCqDWlk6iNRdJGxE8DTyqwaBKfoxs 2.png');
   background-size: cover; /* Ensure the background image covers the entire element */
   background-position: center; /* Center the background image */
   position: absolute;
@@ -858,7 +859,7 @@ opacity: 0px;
   height: 350px;
   gap: 0px;
   background-color: rgba(36, 128, 83, 0.5); /* Adjust the opacity of the white background to make the image slightly visible */
-  background-image: url('./webapp\ image/GettyImages-157859687_super 1.png');
+  background-image: url('./GettyImages-157859687_super 1.png');
   background-size: cover; /* Ensure the background image covers the entire element */
   background-position: center; /* Center the background image */
   position: absolute;
@@ -874,7 +875,7 @@ opacity: 0px;
   height: 350px;
   gap: 0px;
   background-color: rgba(36, 128, 83, 0.5); /* Adjust the opacity of the white background to make the image slightly visible */
-  background-image: url('./webapp\ image/close-up-person-doing-online-shopping 1.png');
+  background-image: url('./close-up-person-doing-online-shopping 1.png');
   background-size: cover; /* Ensure the background image covers the entire element */
   background-position: center; /* Center the background image */
   position: absolute;
@@ -976,7 +977,7 @@ opacity: 0px;
 /*section 7 started*/
 
 .webapp_section_7_layout{
-  width: 100%;
+  width: 1192px;
   max-width: 100%;
   height: 616px;
   margin-top: 108px;
@@ -1135,7 +1136,7 @@ height: 520px;
 /*section 8 started */
 
 .webapp_section_8_layout{
-  width: 100%;
+  width: 1499px;
   margin-top: 108px;
   height: 768px;
   gap: 0px;
@@ -1654,7 +1655,7 @@ height: 520px;
 
 /*section 11 start*/
 .webapp_section_11_layout{
-  width: 100%;
+  width: 1192px;
   height: 648px;
   margin-top: 108px;
   margin-left: 124px;
@@ -1839,7 +1840,7 @@ height: 520px;
   z-index: 1;
 }
 
-.webapp_section_11_testimonialcarosuel{
+/* .webapp_section_11_testimonialcarosuel{
   width: 844px;
   height: 8px;
   margin-top: 42px;
@@ -1847,8 +1848,8 @@ height: 520px;
   opacity: 0px;
   margin-left: 200px;
   cursor: pointer;
-  display: flex; /* Add flex display */
-  justify-content: flex-start; /* Align items at the start of the flex container */
+  display: flex; /* Add flex display 
+  justify-content: flex-start; /* Align items at the start of the flex container 
   align-items: center;
 }
 
@@ -1887,7 +1888,7 @@ height: 520px;
   opacity: 0px;
   margin-left: 8px;
   background: rgba(196, 196, 196, 1);
-}
+} */
 
  .webapp_section_11_casestudiescenter:not(:first-child) {
     display: none;
@@ -1896,7 +1897,7 @@ height: 520px;
     opacity: 0.5; /* Dim the button when disabled */
     pointer-events: none; /* Disable pointer events */
   }
-  .green-button {
+  .green-button :active {
     background-color: green;
-    color: white;
+    
   }
