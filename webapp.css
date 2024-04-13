@@ -69,7 +69,6 @@
 .webapp_section_1_textarea_button {
   width: 200px;
   height: 42px;
-  
   gap: 0px;
   border-radius: 8px;
   opacity: 0px;
@@ -501,7 +500,6 @@ opacity: 0px;
 .webapp_section_4_col2para{
   width: 645px;
   height: 88px;
-  margin-left: 3px;
   gap: 0px;
   opacity: 0px;
   font-family: 'Source Sans Pro',sans-serif;
@@ -668,11 +666,28 @@ opacity: 0px;
   .webapp_section_4_heading img{
     width: 25px;
   }
+
+  .webapp_section_4_col2para{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+  }
+  .col2heading , .col3heading , .col4heading {
+    margin-top: 10px;
+  }
+  .subpara1 ,.subpara2 ,.subpara3 ,.subpara4{
+    width: 100%;
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
   .webapp_section_4_contenttop{
-    width: 385px;
+    width: 355px !important;
     height: 127px;
     margin-top: 55px;
-    left: 24px;
     gap: 0px;
     opacity: 0px;
   }
@@ -691,7 +706,6 @@ opacity: 0px;
   .webapp_section_4_content {/* Remove margin-top for mobile screens */
     text-align: center; /* Center-align text for mobile screens */
     margin-top: 20px;
-    width: 100%;
   }
   .webapp_section_4_mainimg {
     width: 100%; /* Ensure the image fills its container */
@@ -700,7 +714,7 @@ opacity: 0px;
     margin-top: 20px; 
   }
   .webapp_section_4_col2heading{
-    width: 80%;
+    width: 370px !important;
     font-size: 18px;
     font-weight: 600;
     line-height: 22.63px;
